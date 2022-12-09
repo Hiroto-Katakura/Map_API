@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <title>Reverse Geocode(Event:Click!)</title>
-<style>html,body{height:80%;}body{padding:0;margin:0;background:#333;}h1{padding:0;margin:0;font-size:50%;color:white;}#address{overflow: auto;height: 100%;}#address div{border-bottom: 1px solid #888;font-size:12px;}#view_area{float:left;color:#fff;width:27%;margin-left: 20px;}</style>
+<style>html,body{height:100%;}body{padding:0;margin:0;background:#333;}h1{padding:0;margin:0;font-size:50%;color:white;}#address{overflow: auto;height: 100%;}#address div{border-bottom: 1px solid #888;font-size:12px;}#view_area{float:left;color:#fff;width:27%;margin-left: 20px;}</style>
 </head>
 <body>
-<p>キーワード検索</p>
+<p style="color: white;">キーワード検索</p>
 <p><input type="text" id="from" value=""> <button id="get">検索</button></p>
 
 <!-- MAP[START] -->
@@ -17,7 +17,6 @@
     <p id="loclng"><p id="address"></p></p>
 </div>
 <!-- MAP[END] -->
-
 
 <script src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=ApCb7XJpUgCCeC68F2WVamw-skfedkKA4LyRQ6apstbPVHi7ATVFjVqOaRQov0Uq' async defer></script>
 <script>
